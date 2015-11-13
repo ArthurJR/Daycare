@@ -1,0 +1,24 @@
+a {
+    color: red; 
+}
+
+
+body{
+}
+
+#navbar ul ul{
+    display:none;
+}
+
+#navbar ul li:hover > ul {
+    display: block; 
+}
+
+#navbar ul {
+    color:blue; 
+    list-style: none; 
+}
+
+#navbar ul li > ul { 
+    color: green;
+}
